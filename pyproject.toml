@@ -1,0 +1,22 @@
+[project]
+name = "csv-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nadang18", email = "nadang@ucsd.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+    "rich>=15.0.0",
+    "typer>=0.26.7",
+]
+
+[project.scripts]
+csv-tool = "csv_tool:main"
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"
