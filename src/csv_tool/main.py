@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import warnings
+import subprocess
 from pathlib import Path
 from typing import Annotated, Literal
 
@@ -339,6 +340,10 @@ def plot(
     plt.tight_layout()
     output.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output, dpi=150)
+
+    
+    subprocess.run(["open", str(output)])
+
     plt.close()
 
     console.print(f"[bold]Wrote plot:[/bold] {output}")
