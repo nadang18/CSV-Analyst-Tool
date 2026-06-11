@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+plots/
+data/*_clean.csv
+data/*_no_missing.csv

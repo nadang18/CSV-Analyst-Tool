@@ -1,7 +1,7 @@
 [project]
 name = "csv-tool"
 version = "0.1.0"
-description = "Add your description here"
+description = "A command-line tool for inspecting, cleaning, summarizing, and plotting CSV files."
 readme = "README.md"
 authors = [
     { name = "nadang18", email = "nadang@ucsd.edu" }
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-csv-tool = "csv_tool:main"
+csv-tool = "csv_tool.main:app"
 
 [build-system]
 requires = ["uv_build>=0.11.8,<0.12.0"]

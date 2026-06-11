@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from csv-tool!")
+from csv_tool.main import app, main
+
+__all__ = ["app", "main"]
