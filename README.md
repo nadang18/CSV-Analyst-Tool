@@ -1,6 +1,6 @@
-# CSV Tool
+# CSV Analysis Tool
 
-CSV Tool is a Python command-line tool for quickly inspecting, cleaning, summarizing, and plotting CSV files. It is designed for fast CSV exploration directly from the terminal before doing deeper analysis in a script, notebook, or project.
+CSV Analysis Tool is a Python command-line tool for quickly inspecting, cleaning, summarizing, and plotting CSV files. It is designed for fast CSV exploration directly from the terminal before doing deeper analysis in a script, notebook, or project.
 
 ## Setup
 
